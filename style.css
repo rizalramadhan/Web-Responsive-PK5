@@ -1,0 +1,278 @@
+/* default configuration */
+body{
+	margin : 0;
+	font-family: "Arial";
+	font-size: 14px;
+	color: #373737;
+}
+.clear{
+	float: none;
+	clear: both;
+}
+.center{
+	width : 1100px;
+	margin : 0 auto;
+}  
+
+/* header configuration */
+#header{
+	padding: 20px 0;
+}
+#logo{
+	float: left;
+	padding-top: 12px;
+}
+.lg a{
+	border: solid 2px black;
+	border-radius: 20px;
+	color: black;
+	text-transform: uppercase;
+	font-family: "Arial";
+	font-size: 28px;
+	text-decoration: none;
+	padding: 10px;
+}
+.lg a:hover{
+	color: #ffffff;
+	background: #189acc;
+	border-radius: 10px;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-ms-transition:0.5s;
+	transition:0.5s;
+}
+.nav{
+	float: right;
+}
+.nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.nav ul li{
+	display: inline-block;
+	font-size: 18px;
+	font-family:"berlin sans fb";
+}
+.nav ul li a{
+	display: inline-block;
+	padding: 20px 25px;
+	text-transform: uppercase;
+	color : #373737;
+	text-decoration: none;
+}  
+.nav ul li a:hover{
+	color: #0a63e9;
+	border-radius: 10px;
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-ms-transition:0.4s;
+	transition:0.4s;
+}
+
+/* banner configuration */
+#banner{
+	background: url("../images/background.jpg")center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding: 115px;
+	color: #FFFFFF;
+	text-align: center;
+}
+#banner h1{
+	font-size: 44px;
+	font-family: "Arial Black";
+	text-transform: uppercase;
+	font-weight: normal;
+}
+#banner h2{
+	font-size: 26px;
+	font-family: "Arial";
+	text-transform: uppercase;
+	font-weight: normal;
+	margin-bottom: 28px;
+}
+.btn-primary{
+	border: solid 2px #FFFFFF;
+	border-radius: 10px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-family: "Arial";
+	font-size: 16px;
+	text-decoration: none;
+	padding: 10px;
+	display: inline-block;
+}
+.btn-primary:hover,
+.button a:hover{
+	background: #FFFFFF;
+	color: #0a63e9;
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-ms-transition:0.4s;
+	transition:0.4s;
+
+}
+
+/* our services configuration */
+#our-services{
+	padding: 25px;
+	font-family: "arial";
+}
+.title-content{
+	text-transform: uppercase;
+	font-size: 32px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.title-content span{
+	font-family: "arial black";
+}
+.list-services{
+	background: #189acc;
+	border-radius: 10px;
+	padding: 25px;
+	float: left;
+	padding-left: 30px;
+	margin-left: 30px;
+	margin-right: 30px;
+	width: 40%;
+	color: #FFFFFF;
+}
+.list-services:last-child{
+	float: right;
+}
+.list-services h2{
+	text-transform: uppercase;
+	font-family: "Arial black";
+	font-size: 26px;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+.text{
+	line-height: 25px; 
+	margin-bottom: 10px;
+}
+.button a{
+	display: inline-block;
+	padding: 10px 15px;
+	border: solid 2px #FFFFFF;
+	border-radius: 10px;
+	text-decoration: none;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-family: "arial"
+}
+
+/* this is for notification subscribe configuration */
+#notification-subsribe{
+	background: #d7d7d7;
+	padding: 25px 0;
+	margin-top : 20px;
+}
+.left-content h2{
+	font-family: "Arial black";
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.left-content h3{
+	font-size: 24px;
+	font-family: "calibri";
+}
+.left-content{
+	float: left;
+}
+.right-content{
+	float: right;
+	padding-top: 35px;
+}
+.large-btn{
+	display: inline-block;
+	background: #189acc;
+	border-radius: 10px;
+	font-family: "arial";
+	font-size: 24px;
+	padding: 18px 35px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.large-btn:hover{
+	background: #373737;
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-ms-transition:0.4s;
+	transition:0.4s;
+
+}
+
+/* This is for footer configuration */
+#footer{
+	background: #373737;
+	padding: 40px 0;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: "arial"
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width : 1214px){
+	#logo{
+		text-align: center;
+		padding-bottom: 20px;
+
+	}
+	.lg a{
+		font-size: 19px;
+	}
+}
+
+@media screen and (max-width : 1214px){
+	.center{
+		width: auto;
+		padding: 20px;
+		margin: 0
+	}
+}
+
+@media screen and (max-width: 1214px){
+
+	.left-content,.right-content{
+		float: none;
+		text-align: center;
+	}
+	.right-content{
+		padding-top: 10px;
+	}
+	.list-services,
+	.list-services.last{
+		width: auto;
+		display: block;
+		float: none;
+		margin-bottom: 15px;
+	}
+	.list-services h2,.text,.button{
+		text-align: center;
+	}
+}
+@media screen and (max-width: 741px){
+	.nav,
+	#logo{
+		float: none;
+		width: auto;
+		margin: 0 auto;
+	}
+	#logo img{
+		margin: 0 auto;
+		display: table;
+	}
+	.nav ul{
+		display: table;
+		margin: 0 auto;
+	}
+	#banner h1{
+		font-size: 30px;
+	}
+} 
